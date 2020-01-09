@@ -24,10 +24,6 @@ sections:
         title: Url
         type: text
         size: 4/12
-      menu_item_order:
-        title: Order
-        type: text
-        size: 4/12
       menu_item_target:
         title: Target
         type: select
