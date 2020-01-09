@@ -1,0 +1,13 @@
+{% extends "themes/default/templates/partials/base.html" %}
+
+{% block content %}
+	<pre>site/themes/default/templates/catalog-category-item.html</pre>
+	<hr>
+
+	    <img src="{{ base_url() }}/image/{{ entry.slug }}/{{ entry.image }}" alt="">
+        <p>{{ entry.text|raw}}</p>
+        <p>{{ entry.price}}</p>
+	    <hr>
+
+
+{% endblock %}
