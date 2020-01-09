@@ -1,0 +1,31 @@
+title: 'Catalog Category Item'
+default_field: title
+icon: 'far fa-file-alt'
+hide: false
+sections:
+  main:
+    title: Main
+    fields:
+      title:
+        title: Title
+        type: text
+        size: '12'
+      text:
+        title: Text
+        type: html
+        size: 12
+      price:
+        title: Price
+        type: text
+        size: 3/12
+      image:
+        title: Image
+        type: media_select
+        size: 3/12
+  seo:
+    title: Seo
+    fields:
+      description:
+        title: Description
+        type: textarea
+        size: 12
