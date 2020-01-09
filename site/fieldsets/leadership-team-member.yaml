@@ -1,0 +1,30 @@
+title: 'Leadership Team Member'
+default_field: title
+icon: 'far fa-file-alt'
+hide: false
+sections:
+    main:
+        title: Main
+        fields:
+            name:
+                title: Personal Name
+                type: text
+                size: '12'
+            job:
+                title: Job Title
+                type: html
+                size: '12'
+            photo:
+                title: Photo
+                type: media_select
+                size: '3/12'
+            bio:
+                title: Bio
+                type: html
+                size: '12'
+    seo:
+        title: SEO
+        fields:
+            title: Description
+            type: textarea
+            size: '12'
