@@ -4,9 +4,20 @@ icon: 'far fa-file-alt'
 hide: false
 sections:
   main:
-    title: admin_main
+    title: Main
     fields:
       title:
-        title: admin_title
+        title: Title
         type: text
         size: '12'
+      image:
+        title: Image
+        type: media_select
+        size: 3/12
+  seo:
+    title: Seo
+    fields:
+      description:
+        title: Description
+        type: textarea
+        size: 12
