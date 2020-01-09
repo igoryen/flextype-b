@@ -12,6 +12,7 @@
 {% block content %}
 	<hr>
 	{% for category in categories %}
+		<p>{{ category.title}}</p>
 	    <img src="{{ base_url() }}/image/{{ category.slug }}/{{ category.image }}" alt="">
 	    <hr>
 	{% endfor %}
