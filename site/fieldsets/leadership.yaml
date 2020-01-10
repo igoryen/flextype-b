@@ -4,12 +4,32 @@ icon: 'far fa-file-alt'
 hide: false
 sections:
   main:
-    title: Main
+    title: admin_main
     fields:
       title:
-        title: admin_title
+        title: Main
         type: text
         size: '12'
+  menu:
+    title: Menu
+    fields:
+      menu_item_title:
+        title: Title
+        type: text
+        size: 3/12
+      menu_item_url:
+        title: Url
+        type: text
+        size: 3/12
+      menu_item_order:
+        title: Order
+        type: text
+        size: 3/12
+      menu_item_target:
+        title: Target
+        type: select
+        options: { _self: _self, _blank: _blank, _parent: _parent, _top: _top }
+        size: '3/12 } }'
   seo:
     title: Seo
     fields:
@@ -17,19 +37,3 @@ sections:
         title: Description
         type: textarea
         size: 12
-  menu:
-    title: Menu
-    fields:
-      menu_item_title:
-        title: Title
-        type: text
-        size: 4/12
-      menu_item_url:
-        title: Url
-        type: text
-        size: 4/12
-      menu_item_target:
-        title: Target
-        type: select
-        options: { _self: _self, _blank: _blank, _parent: _parent, _top: _top }
-        size: 4/12

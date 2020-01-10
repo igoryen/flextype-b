@@ -1,5 +1,14 @@
 {% extends "themes/default/templates/partials/base.html" %}
-
+{% set leaders = entries.fetchCollection('leadership') %}
 {% block content %}
-    <pre>site/themes/default/templates/leadership.html</pre>
-{% endblock %}
+/ default / leadership
+<pre>site/themes/default/templates/leadership.html</pre>
+<hr>
+{% for leader in leaders %}
+<pre>{{leader.team}}: {{leader.teamorder}}</pre>
+<h2>{{leader.name}}</h2>
+<h4>{{leader.job}}</h4>
+<p>{{leader.bio|raw}}</p>
+<hr>
+{% endfor %}
+{% endblock %} 

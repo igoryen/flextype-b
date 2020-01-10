@@ -4,27 +4,36 @@ icon: 'far fa-file-alt'
 hide: false
 sections:
   main:
-    title: Main
+    title: admin_main
     fields:
       title:
         title: admin_title
         type: text
-        size: '12'
+        size: 4/12
       name:
         title: 'Personal Name'
         type: text
-        size: '12'
+        size: 4/12
+      job:
+        title: 'Job Title'
+        type: text
+        size: 4/12
       bio:
         title: Bio
         type: html
         size: 12
-      job:
-        title: 'Job Title'
-        type: text
-        size: 3/12
       image:
         title: Image
         type: media_select
+        size: 3/12
+      team:
+        title: Team
+        type: select
+        options: { Executive: executive, Senior_Management: senior_management, Sales: sales }
+        size: 3/12
+      teamorder:
+        title: 'Order in Team'
+        type: text
         size: 3/12
   seo:
     title: Seo
