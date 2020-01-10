@@ -1,0 +1,15 @@
+{% extends "themes/default/templates/partials/base.html" %}
+{% set leaders = entries.fetchCollection('leaders') %}
+
+
+{% block content %}
+	<pre>site/themes/default/templates/leaders.html</pre>
+
+    {% for leader in leaders %}
+		<p>{{ leader.title}}</p>
+	    
+	    <p>{{ leader.text}}</p>
+	    
+	    <hr>
+	{% endfor %}
+{% endblock %}

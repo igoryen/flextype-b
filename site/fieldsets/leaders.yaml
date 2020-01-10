@@ -1,4 +1,4 @@
-title: Leadership
+title: Leaders
 default_field: title
 icon: 'far fa-file-alt'
 hide: false
@@ -10,25 +10,26 @@ sections:
                 title: admin_title
                 type: text
                 size: '12'
-            seo:
-                title: SEO
-                fields: 
-                    title: Description
-                    type: textarea
-                    size: '12'
+    seo:
+        title: SEO
+        fields:
+            description:
+                title: Description
+                type: textarea
+                size: '12'
     menu:
         title: Menu
-        fields:
+        fields: 
             menu_item_title:
                 title: Title
                 type: text
                 size: '3/12'
             menu_item_url:
-                title: Url
+                title: URL
                 type: text
                 size: '3/12'
             menu_item_order:
-                title: 'Order in Nav Menu'
+                title: 'Order'
                 type: text
                 size: '3/12'
             menu_item_target:

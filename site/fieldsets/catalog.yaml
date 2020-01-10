@@ -1,4 +1,4 @@
-title: Catalog
+title: Leadership
 default_field: title
 icon: 'far fa-file-alt'
 hide: false
@@ -12,7 +12,11 @@ sections:
         size: '12'
   seo:
     title: Seo
-    fields: 'description title: Description type: textarea size: 12'
+    fields:
+      description:
+        title: Description
+        type: textarea
+        size: 12
   menu:
     title: Menu
     fields:

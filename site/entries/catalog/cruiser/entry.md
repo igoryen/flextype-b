@@ -1,5 +1,5 @@
 ---
-title: Cruiser
+title: Executive
 image: flower-a.jpg
 description: ''
 template: catalog-category

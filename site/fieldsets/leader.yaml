@@ -1,4 +1,4 @@
-title: 'Catalog Category Item'
+title: Leader
 default_field: title
 icon: 'far fa-file-alt'
 hide: false
@@ -6,6 +6,10 @@ sections:
   main:
     title: Main
     fields:
+      title:
+        title: admin_title
+        type: text
+        size: '12'
       name:
         title: 'Personal Name'
         type: text
@@ -22,19 +26,6 @@ sections:
         title: Image
         type: media_select
         size: 3/12
-      title:
-        title: Title
-        type: text
-        size: '12'
-      text:
-        title: Text
-        type: html
-        size: 12
-      price:
-        title: Price
-        type: text
-        size: 3/12
-      
   seo:
     title: Seo
     fields:
