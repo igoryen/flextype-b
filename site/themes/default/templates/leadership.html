@@ -1,14 +1,42 @@
 {% extends "themes/default/templates/partials/base.html" %}
-{% set leaders = entries.fetchCollection('leadership') %}
+
+
+
 {% block content %}
-/ default / leadership
-<pre>site/themes/default/templates/leadership.html</pre>
-<hr>
-{% for leader in leaders %}
-<pre>{{leader.team}}: {{leader.teamorder}}</pre>
-<h2>{{leader.name}}</h2>
-<h4>{{leader.job}}</h4>
-<p>{{leader.bio|raw}}</p>
-<hr>
-{% endfor %}
+	/ default / leadership
+	<pre>site/themes/default/templates/leadership.html</pre>
+	
+	<hr>
+	<h2>Executive Team</h2>
+
+	<hr>
+	{% set collection = entries.fetch('leadership/executive-team', {}) %}
+	{% for leader in collection|sort((a, b) => a.teamorder <=> b.teamorder) %}
+		<h3>{{ leader.name }}</h3>
+	   	<h4>{{ leader.job }}</h4>
+	   	<p>{{ leader.bio|raw}}</p>
+		
+	{% endfor %}
+	<hr>
+
+	<h2>Senior Management Team</h2>
+	<hr>
+	{% set collection = entries.fetch('leadership/senior-management-team', {}) %}
+	{% for leader in collection|sort((a, b) => a.teamorder <=> b.teamorder) %}
+		<h3>{{ leader.name }}</h3>
+	   	<h4>{{ leader.job }}</h4>
+	   	<p>{{ leader.bio|raw}}</p>
+		
+	{% endfor %}
+	<hr>
+	
+	<h2>Sales Team</h2>
+	<hr>
+	{% set collection = entries.fetch('leadership/sales-team', {}) %}
+	{% for leader in collection|sort((a, b) => a.teamorder <=> b.teamorder) %}
+		<h3>{{ leader.name }}</h3>
+	   	<h4>{{ leader.job }}</h4>
+	   	<p>{{ leader.bio|raw}}</p>
+		<hr>
+	{% endfor %}
 {% endblock %} 
