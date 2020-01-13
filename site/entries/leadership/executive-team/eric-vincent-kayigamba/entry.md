@@ -3,7 +3,7 @@ title: 'Eric-Vincent Kayigamba'
 name: 'Eric-Vincent Kayigamba'
 job: 'Executive Vice President, International Sales'
 bio: "<p>Eric Kayigamba joined the senior leadership team in the capacity of Sales Executive Vice President. Over the years, he has carried out the strategies to develop our valuation and recovery businesses through the operations of Nationwide Appraisal Services (NAS) and Nationwide Recovery Services (NRS). Eric continues his focus to expand our existing business and lead our new initiatives in Canada and globally.\r\n</p><p>Eric first joined the TNG team in 2007 as an Accounting Lead. His leadership, expertise, passion for excellence as well as his enthusiasm soon led him to the position of Quebec Regional Sales Manager and quickly catapulted him to Vice President, Eastern Canada. As Vice President of Eastern Canada, he was responsible for shaping and carrying out strategies for NAS and NRS in Quebec and Atlantic provinces.\r\n</p><p>Eric received a Bachelor's Degree in Business Management with a specialization in Finance at Université du Québec à Montréal. Upon completion, he entered the public sector in the Province of Québec where he amassed many years of experience and occupied several positions related to accounting and finance. In his spare time, Eric is very involved in his community as he's currently sitting on the Board of Directors of Partage Action / West island Community.\r\n</p><p><br></p>"
-image: ''
+image: eric-kayigamba.jpg
 team: Executive
 teamorder: '3'
 description: ''

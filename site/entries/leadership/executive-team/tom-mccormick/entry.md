@@ -3,7 +3,7 @@ title: 'Tom McCormick'
 name: 'Tom McCormick'
 bio: "<p>Tom McCormick is the founder and CEO of The Nationwide Group of Companies (TNG).\r\n</p><p>TNG owns and operates a portfolio of leading financial technology companies with services available in 18 countries, each providing software solutions to financial institutions: Get Connexions a platform to customize and manage residential and commercial appraisal processes; Nationwide Appraisal Services (NAS) for valuation risk management and analytics; Home Closing Services (HCS) virtual property and mortgage legal closings; Nationwide Recovery Services (NRS) defaulted debt recovery management of secured and unsecured loans; and Nationwide Energy Advisors (NEA) for retrofitting real estate properties.\r\n</p><p>To encompass the mortgage life cycle, Tom has his team developing the next generation of mortgage technologies, with proprietary apps and web-based services, which follow the mortgage process from application to funding. It is the first time in North America that technology allows a complete, all-in-one digital mortgage closing solution designed to connect all service types and suppliers during the mortgage life cycle.\r\n</p><p><br></p>"
 job: 'Founder & CEO'
-image: ''
+image: tom.jpg
 team: Executive
 teamorder: '1'
 description: ''

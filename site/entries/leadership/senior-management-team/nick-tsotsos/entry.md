@@ -3,7 +3,7 @@ title: 'Nick Tsotsos'
 name: 'Nick Tsotsos'
 job: 'Director, Operations'
 bio: "<p>As Director, Nick’s key functions include operational management, implementation of business solutions, and fostering customer loyalty. Prior to joining TNG, Nick was Director, Operations at an international agency. He has successfully developed and implemented numerous strategies to achieve best-in-class results within various portfolios assigned to his control, including legal and mortgage categories (for Canadian and United States markets). With twenty years of experience, Nick brings a deep and broad level of knowledge in driving and sustaining operational efficiencies.\r\n</p><p><br></p>"
-image: ''
+image: nick.jpg
 team: Senior_Management
 teamorder: '3'
 description: ''

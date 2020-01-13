@@ -3,7 +3,7 @@ title: 'Patrick Ardies'
 name: 'Patrick Ardies'
 job: 'Regional Vice President, Western Canada'
 bio: "<p>Patrick brings to TNG more than 20 years of experience in the financial services industry and a breadth of market knowledge and expertise to the TNG team. Patrick is a passionate and customer centric professional dedicated to excellence in client solutions. His experience includes Business Development, and Retail Lending with Leading financial institutions, as well as Sales and Operations Management with a focus on Appraisal and Risk Management. Patrick is leading Regional Sales efforts for Western Canada.\r\n</p><p>Email: patrick.ardies@nationwideappraisals.com</p>"
-image: ''
+image: patric-ardies.jpg
 team: Sales
 teamorder: '3'
 description: ''

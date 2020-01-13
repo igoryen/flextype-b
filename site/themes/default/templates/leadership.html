@@ -3,10 +3,6 @@
 
 
 {% block content %}
-	/ default / leadership
-	<pre>site/themes/default/templates/leadership.html</pre>
-	
-	<hr>
 	<h2>Executive Team</h2>
 
 	<hr>
@@ -14,6 +10,7 @@
 	{% for leader in collection|sort((a, b) => a.teamorder <=> b.teamorder) %}
 		<h3>{{ leader.name }}</h3>
 	   	<h4>{{ leader.job }}</h4>
+        <img src="{{ base_url() }}/image/{{ leader.slug }}/{{ leader.link }}/{{  leader.image }}?w=150" alt="">
 	   	<p>{{ leader.bio|raw}}</p>
 		
 	{% endfor %}
@@ -25,6 +22,7 @@
 	{% for leader in collection|sort((a, b) => a.teamorder <=> b.teamorder) %}
 		<h3>{{ leader.name }}</h3>
 	   	<h4>{{ leader.job }}</h4>
+        <img src="{{ base_url() }}/image/{{ leader.slug }}/{{ leader.link }}/{{  leader.image }}?w=150" alt="">
 	   	<p>{{ leader.bio|raw}}</p>
 		
 	{% endfor %}
@@ -36,6 +34,7 @@
 	{% for leader in collection|sort((a, b) => a.teamorder <=> b.teamorder) %}
 		<h3>{{ leader.name }}</h3>
 	   	<h4>{{ leader.job }}</h4>
+        <img src="{{ base_url() }}/image/{{ leader.slug }}/{{ leader.link }}/{{  leader.image }}?w=150" alt="">
 	   	<p>{{ leader.bio|raw}}</p>
 		<hr>
 	{% endfor %}
