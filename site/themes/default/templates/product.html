@@ -1,0 +1,15 @@
+{% extends "themes/default/templates/partials/base.html" %}
+
+
+
+{% block content %}
+	<pre>site/themes/default/templates/product.html</pre>
+
+    {% set product = entries.fetch('product') %}
+	<hr>
+	The Product...
+    <p>{{product.intro|raw}}</p>
+    <p><img src="{{ base_url() }}/image/{{ product.slug }}/{{ product.introImg }}" alt=""></p>
+	<hr>
+
+{% endblock %}

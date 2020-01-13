@@ -13,5 +13,5 @@ menu_item_title: Leadership
 menu_item_url: leadership
 menu_item_target: _self
 description: ''
-menu_item_order: '2'
+menu_item_order: '3'
 ---
